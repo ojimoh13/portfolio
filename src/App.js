@@ -18,7 +18,7 @@ import Projects from "./pages/Projects";
 import Services from "./pages/Services";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-// import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
