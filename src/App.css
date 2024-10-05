@@ -1,0 +1,112 @@
+/**
+ * File name: App.css
+ * Student's Name: Lenard Alexis Martinez
+ * Student ID: 301409210
+ * Date: 05/22/24
+ */
+
+/* ---- Navbar Links ---- */
+.nav-link {
+  /* font-weight: 500; */
+  letter-spacing: 0.03rem;
+  color: #cc5a5a;
+}
+/* ---- End of Navbar Links ---- */
+
+
+/* ---- Header Wrapper ---- */
+.header-wrapper{
+    position: relative;
+    background: url(bg-wallpaper2.jpg) no-repeat;
+    /* background: rgb(255, 255, 255, 0.1) url(bg-wallpaper2.jpg) no-repeat; */
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+    /* opacity: 80%; */
+}
+
+/* ---- End of Header Wrapper ---- */
+
+.main{
+    position: absolute;
+    inset: 0; /* for top,bottom, left and right properties */
+}
+
+/* Home page */
+.homepage-h1{
+    color: #ffc60df5;
+    font-weight: bold;
+    /* background-color: #875858; */
+
+}
+.homepage-h3{
+    color: #cc5a5a;
+    font-weight: bold;
+}
+
+.homepage-h2 {
+    color: #000000;
+}
+
+.card-mission .card {
+    background-color: #853434;
+    color: white;
+  }
+
+.card-mission .card-header {
+    background-color: #d15d5d;
+    color: rgb(20, 6, 6);
+  }
+
+/* End of Home page */
+  
+
+/* Services Page*/
+.services-h1{
+    color: #ffc60df5;
+    font-weight: bold;
+    font-size: 3.0rem;
+}
+
+.custom-accordion .accordion-button {
+  background-color: #343a40;
+  /* color: #cc5a5a; */
+  color: rgba(56, 152, 248, 0.933);
+
+  border: none;
+  font-weight: bold;
+  font-size: 1.50rem;
+}
+
+.custom-accordion .accordion-button:not(.collapsed) {
+  background-color: #495057;
+}
+
+.custom-accordion .accordion-body {
+  background-color: #212529;
+  color: #ffc60df5;
+}
+
+.icon {
+    margin-right: 1.5rem; /* Space between icon and text */
+    width: 2rem;
+    height: 24px;
+  }
+
+/* End of Services */
+
+/* Projects Page */
+
+/* Carousel background to see the next&prev arrow */
+  .carousel-cont{
+    position: relative;
+    background: url(carousel-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    width: 80%;
+
+  }
+
+/* End of Projects Page */
